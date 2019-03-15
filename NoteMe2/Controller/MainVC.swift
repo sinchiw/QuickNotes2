@@ -47,12 +47,14 @@ class MainVC: UIViewController,UICollectionViewDelegate, UICollectionViewDataSou
                                        style: .default) {
                                         [unowned self] action in
                                         
-                                       guard let textField = alert.textFields!.first!,
-                                            let nameToSave = textField.text! else {
+                                       guard let textField = alert.textFields?.first,
+                                            let nameToSave = textField.text else {
                                                 return
                                         }
-                                        CourseCoreData.sharedInstance.courses = nameToSave
+                                       
+                                        CourseCoreData.sharedInstance.saveCourseToCoreD(name: nameToSave)
                                         
+                                          
             
 //                    classNames.name = course
                     //to save the data, back it wont read it
