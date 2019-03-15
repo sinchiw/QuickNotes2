@@ -56,14 +56,16 @@ class MainVC: UIViewController,UICollectionViewDelegate, UICollectionViewDataSou
                                         
                                           
             
-//                    classNames.name = course
-                    //to save the data, back it wont read it
-                    //save context after being deleted so when the app reluanc it would stay deleted.
-                   // PersistenceService.saveContext()
-            
-            //        self.courses.append(classNames)
                     self.collectionView.reloadData()
     }
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .cancel)
+        alert.addTextField()
+        
+        alert.addAction(saveAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true)
     
     }
 
