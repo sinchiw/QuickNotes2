@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2CF390223BFD5D003D381B /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF38F223BFD5D003D381B /* Courses.swift */; };
+		CE2CF392223C0A25003D381B /* AddCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF391223C0A25003D381B /* AddCourse.swift */; };
+		CE3FFADE22381C2B0054463F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */; };
 		CE90A9BE2238158100C9767C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BD2238158100C9767C /* AppDelegate.swift */; };
-		CE90A9C02238158100C9767C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BF2238158100C9767C /* ViewController.swift */; };
+		CE90A9C02238158100C9767C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BF2238158100C9767C /* MainVC.swift */; };
 		CE90A9C32238158100C9767C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90A9C12238158100C9767C /* Main.storyboard */; };
 		CE90A9C62238158100C9767C /* NoteMe2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9C42238158100C9767C /* NoteMe2.xcdatamodeld */; };
 		CE90A9C82238158500C9767C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90A9C72238158500C9767C /* Assets.xcassets */; };
-		CE90A9CB2238158500C9767C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90A9C92238158500C9767C /* LaunchScreen.storyboard */; };
 		CE90A9D62238158500C9767C /* NoteMe2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9D52238158500C9767C /* NoteMe2Tests.swift */; };
 		CE90A9E12238158500C9767C /* NoteMe2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9E02238158500C9767C /* NoteMe2UITests.swift */; };
+		CE90A9EF223818C900C9767C /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9EE223818C900C9767C /* LaunchScreen.swift */; };
+		CEE10E3F22399C70003F5D68 /* ClassCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */; };
+		CEE10E7F223AE9AF003F5D68 /* CourseCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE10E7E223AE9AF003F5D68 /* CourseCoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2CF38F223BFD5D003D381B /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		CE2CF391223C0A25003D381B /* AddCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourse.swift; sourceTree = "<group>"; };
+		CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CE90A9BA2238158100C9767C /* NoteMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90A9BD2238158100C9767C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE90A9BF2238158100C9767C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE90A9BF2238158100C9767C /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		CE90A9C22238158100C9767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE90A9C52238158100C9767C /* NoteMe2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteMe2.xcdatamodel; sourceTree = "<group>"; };
 		CE90A9C72238158500C9767C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE90A9CA2238158500C9767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE90A9CC2238158500C9767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE90A9D12238158500C9767C /* NoteMe2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteMe2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90A9D52238158500C9767C /* NoteMe2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMe2Tests.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		CE90A9DC2238158500C9767C /* NoteMe2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteMe2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90A9E02238158500C9767C /* NoteMe2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMe2UITests.swift; sourceTree = "<group>"; };
 		CE90A9E22238158500C9767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE90A9EE223818C900C9767C /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionCell.swift; sourceTree = "<group>"; };
+		CEE10E7E223AE9AF003F5D68 /* CourseCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,16 @@
 		CE90A9BC2238158100C9767C /* NoteMe2 */ = {
 			isa = PBXGroup;
 			children = (
+				CEE10E40223AA4CB003F5D68 /* CoreData */,
+				CEE10E3D22399697003F5D68 /* Controller */,
+				CEE10E3C22399554003F5D68 /* Model */,
+				CEE10E3B22399542003F5D68 /* View */,
 				CE90A9BD2238158100C9767C /* AppDelegate.swift */,
-				CE90A9BF2238158100C9767C /* ViewController.swift */,
 				CE90A9C12238158100C9767C /* Main.storyboard */,
+				CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */,
 				CE90A9C72238158500C9767C /* Assets.xcassets */,
-				CE90A9C92238158500C9767C /* LaunchScreen.storyboard */,
+				CE90A9EE223818C900C9767C /* LaunchScreen.swift */,
 				CE90A9CC2238158500C9767C /* Info.plist */,
-				CE90A9C42238158100C9767C /* NoteMe2.xcdatamodeld */,
 			);
 			path = NoteMe2;
 			sourceTree = "<group>";
@@ -126,6 +139,40 @@
 				CE90A9E22238158500C9767C /* Info.plist */,
 			);
 			path = NoteMe2UITests;
+			sourceTree = "<group>";
+		};
+		CEE10E3B22399542003F5D68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEE10E3C22399554003F5D68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CF38F223BFD5D003D381B /* Courses.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE10E3D22399697003F5D68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE90A9BF2238158100C9767C /* MainVC.swift */,
+				CE2CF391223C0A25003D381B /* AddCourse.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEE10E40223AA4CB003F5D68 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE90A9C42238158100C9767C /* NoteMe2.xcdatamodeld */,
+				CEE10E7E223AE9AF003F5D68 /* CourseCoreData.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE90A9CB2238158500C9767C /* LaunchScreen.storyboard in Resources */,
+				CE3FFADE22381C2B0054463F /* Launch Screen.storyboard in Resources */,
 				CE90A9C82238158500C9767C /* Assets.xcassets in Resources */,
 				CE90A9C32238158100C9767C /* Main.storyboard in Resources */,
 			);
@@ -259,9 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE90A9C02238158100C9767C /* ViewController.swift in Sources */,
+				CE90A9EF223818C900C9767C /* LaunchScreen.swift in Sources */,
+				CE2CF390223BFD5D003D381B /* Courses.swift in Sources */,
+				CE90A9C02238158100C9767C /* MainVC.swift in Sources */,
+				CEE10E3F22399C70003F5D68 /* ClassCollectionCell.swift in Sources */,
+				CE2CF392223C0A25003D381B /* AddCourse.swift in Sources */,
 				CE90A9BE2238158100C9767C /* AppDelegate.swift in Sources */,
 				CE90A9C62238158100C9767C /* NoteMe2.xcdatamodeld in Sources */,
+				CEE10E7F223AE9AF003F5D68 /* CourseCoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +355,6 @@
 				CE90A9C22238158100C9767C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE90A9C92238158500C9767C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE90A9CA2238158500C9767C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
