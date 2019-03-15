@@ -74,6 +74,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="className" destination="TFz-vp-gDs" id="vWY-Zf-XhU"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>

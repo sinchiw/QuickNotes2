@@ -26,7 +26,7 @@ class CourseCoreData: NSObject {
         
         
         
-        let fetchRequest = NSFetchRequest<Course>(entityName: "CompanyCore")
+        let fetchRequest = NSFetchRequest<Course>(entityName: "Course")
         do {
             courses = try managedContext.fetch(fetchRequest)
         } catch let error as NSError {

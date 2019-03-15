@@ -19,16 +19,20 @@ class MainVC: UIViewController,UICollectionViewDelegate, UICollectionViewDataSou
     
     
     @IBOutlet weak var collectionView: UICollectionView!
-    
+    var tableData = [Course]()
     
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return tableData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let courseData = tableData[indexPath.row]
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ClassCollectionViewCell", for: indexPath) as! ClassCollectionCell
+        let  cellData = courseData.name
+        cell.className?.text = cellData
         
         
         
@@ -56,11 +60,11 @@ class MainVC: UIViewController,UICollectionViewDelegate, UICollectionViewDataSou
                                         
                                           
             
-                    self.collectionView.reloadData()
+//                    self.collectionView.reloadData()
     }
         let cancelAction = UIAlertAction(title: "Cancel",
                                          style: .cancel)
-        alert.addTextField()
+//        alert.addTextField()
         
         alert.addAction(saveAction)
         alert.addAction(cancelAction)
@@ -72,6 +76,8 @@ class MainVC: UIViewController,UICollectionViewDelegate, UICollectionViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        collectionView.reloadData()
+        
     }
 
 

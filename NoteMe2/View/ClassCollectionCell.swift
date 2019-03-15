@@ -12,7 +12,9 @@ import UIKit
 
 class ClassCollectionCell: UICollectionViewCell{
     
-//    func cellSpacing(){
+    @IBOutlet weak var className: UILabel!
+    
+    //    func cellSpacing(){
 //        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
 //        layout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
 //        layout.itemSize = CGSize(width: screenWidth/3, height: screenWidth/3)
