@@ -15,6 +15,8 @@ class Courses : NSObject {
     
     init(className: String){
         self.className = className
+        
+        
     }
     
     

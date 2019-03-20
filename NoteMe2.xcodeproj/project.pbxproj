@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE2CF390223BFD5D003D381B /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF38F223BFD5D003D381B /* Courses.swift */; };
-		CE2CF392223C0A25003D381B /* AddCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF391223C0A25003D381B /* AddCourse.swift */; };
+		CE2CF392223C0A25003D381B /* AddCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF391223C0A25003D381B /* AddCourseVC.swift */; };
+		CE2CF39422403F16003D381B /* ClassTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF39322403F16003D381B /* ClassTableVC.swift */; };
+		CE2CF39622404BDF003D381B /* tableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF39522404BDF003D381B /* tableCell.swift */; };
 		CE3FFADE22381C2B0054463F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */; };
 		CE90A9BE2238158100C9767C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BD2238158100C9767C /* AppDelegate.swift */; };
 		CE90A9C02238158100C9767C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BF2238158100C9767C /* MainVC.swift */; };
@@ -41,7 +43,9 @@
 
 /* Begin PBXFileReference section */
 		CE2CF38F223BFD5D003D381B /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
-		CE2CF391223C0A25003D381B /* AddCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourse.swift; sourceTree = "<group>"; };
+		CE2CF391223C0A25003D381B /* AddCourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseVC.swift; sourceTree = "<group>"; };
+		CE2CF39322403F16003D381B /* ClassTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableVC.swift; sourceTree = "<group>"; };
+		CE2CF39522404BDF003D381B /* tableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableCell.swift; sourceTree = "<group>"; };
 		CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CE90A9BA2238158100C9767C /* NoteMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90A9BD2238158100C9767C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */,
+				CE2CF39522404BDF003D381B /* tableCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,7 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				CE90A9BF2238158100C9767C /* MainVC.swift */,
-				CE2CF391223C0A25003D381B /* AddCourse.swift */,
+				CE2CF391223C0A25003D381B /* AddCourseVC.swift */,
+				CE2CF39322403F16003D381B /* ClassTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,9 +316,11 @@
 				CE2CF390223BFD5D003D381B /* Courses.swift in Sources */,
 				CE90A9C02238158100C9767C /* MainVC.swift in Sources */,
 				CEE10E3F22399C70003F5D68 /* ClassCollectionCell.swift in Sources */,
-				CE2CF392223C0A25003D381B /* AddCourse.swift in Sources */,
+				CE2CF392223C0A25003D381B /* AddCourseVC.swift in Sources */,
+				CE2CF39422403F16003D381B /* ClassTableVC.swift in Sources */,
 				CE90A9BE2238158100C9767C /* AppDelegate.swift in Sources */,
 				CE90A9C62238158100C9767C /* NoteMe2.xcdatamodeld in Sources */,
+				CE2CF39622404BDF003D381B /* tableCell.swift in Sources */,
 				CEE10E7F223AE9AF003F5D68 /* CourseCoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -79,6 +79,12 @@ class MainVC: UIViewController,UICollectionViewDelegate, UICollectionViewDataSou
         collectionView.reloadData()
         
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.tableData = CourseCoreData.sharedInstance.courses
+    }
 
 
 }
