@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 
 
@@ -23,6 +24,8 @@ class AddCourseVC : UIViewController, UITextFieldDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
 //        registerForKeyboardNotifications()
+        tapregonizer()
+        
         newCourse.delegate = self
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardwillChange(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardwillChange(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
@@ -96,11 +99,23 @@ class AddCourseVC : UIViewController, UITextFieldDelegate{
 
     
     @IBAction func saveCourse(_ sender: Any) {
+        
+        if newCourse.text == "" {
+            let alert = UIAlertController(title: "Pleae add a valid course", message: nil, preferredStyle: .alert)
+            alert.addTextField{ (UITextField) in UITextField.placeholder = "Course Name"
+                
+                let cancelAction = UIAlertAction(title: "Ok", style: .cancel)
+                
+                alert.addAction(cancelAction)
+                            }
+        
+        } else { 
+    
         CourseCoreData.sharedInstance.saveCourseToCoreD(name: newCourse.text!)
         
         
         self.navigationController?.popToRootViewController(animated: true)
-        
+        }
     }
     
     

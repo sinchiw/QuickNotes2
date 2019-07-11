@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2073A32243EF46009BD48D /* MainCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2073A22243EF46009BD48D /* MainCollectionViewLayout.swift */; };
+		CE2073A722443045009BD48D /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2073A622443045009BD48D /* CollectionViewLayout.swift */; };
 		CE2CF390223BFD5D003D381B /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF38F223BFD5D003D381B /* Courses.swift */; };
 		CE2CF392223C0A25003D381B /* AddCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF391223C0A25003D381B /* AddCourseVC.swift */; };
 		CE2CF39422403F16003D381B /* ClassTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF39322403F16003D381B /* ClassTableVC.swift */; };
-		CE2CF39622404BDF003D381B /* tableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF39522404BDF003D381B /* tableCell.swift */; };
+		CE2CF39622404BDF003D381B /* readingCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CF39522404BDF003D381B /* readingCellType.swift */; };
+		CE2F1BB12270FCB800495B3A /* AddNewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F1BB02270FCB800495B3A /* AddNewNoteViewController.swift */; };
+		CE2F1BF32289CCB000495B3A /* readingCellType.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2F1BF22289CCB000495B3A /* readingCellType.xib */; };
+		CE393E98228DFC54001A1187 /* editCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE393E96228DFC54001A1187 /* editCellType.swift */; };
+		CE393E99228DFC54001A1187 /* editCellType.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE393E97228DFC54001A1187 /* editCellType.xib */; };
 		CE3FFADE22381C2B0054463F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */; };
 		CE90A9BE2238158100C9767C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BD2238158100C9767C /* AppDelegate.swift */; };
 		CE90A9C02238158100C9767C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9BF2238158100C9767C /* MainVC.swift */; };
@@ -22,6 +28,10 @@
 		CE90A9EF223818C900C9767C /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A9EE223818C900C9767C /* LaunchScreen.swift */; };
 		CEE10E3F22399C70003F5D68 /* ClassCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */; };
 		CEE10E7F223AE9AF003F5D68 /* CourseCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE10E7E223AE9AF003F5D68 /* CourseCoreData.swift */; };
+		CEE8B757225BA91F006056C3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B756225BA91F006056C3 /* Note.swift */; };
+		CEE8B759225BAA7A006056C3 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B758225BAA7A006056C3 /* DAO.swift */; };
+		CEE8B75D22610879006056C3 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B75C22610879006056C3 /* NotesViewController.swift */; };
+		CEEA4D202264E09B00E8BD7D /* Artboard 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEA4D1F2264E09B00E8BD7D /* Artboard 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2073A22243EF46009BD48D /* MainCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewLayout.swift; sourceTree = "<group>"; };
+		CE2073A622443045009BD48D /* CollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
 		CE2CF38F223BFD5D003D381B /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
 		CE2CF391223C0A25003D381B /* AddCourseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseVC.swift; sourceTree = "<group>"; };
 		CE2CF39322403F16003D381B /* ClassTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableVC.swift; sourceTree = "<group>"; };
-		CE2CF39522404BDF003D381B /* tableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableCell.swift; sourceTree = "<group>"; };
+		CE2CF39522404BDF003D381B /* readingCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readingCellType.swift; sourceTree = "<group>"; };
+		CE2F1BB02270FCB800495B3A /* AddNewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteViewController.swift; sourceTree = "<group>"; };
+		CE2F1BF22289CCB000495B3A /* readingCellType.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = readingCellType.xib; sourceTree = "<group>"; };
+		CE393E96228DFC54001A1187 /* editCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editCellType.swift; sourceTree = "<group>"; };
+		CE393E97228DFC54001A1187 /* editCellType.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editCellType.xib; sourceTree = "<group>"; };
 		CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CE90A9BA2238158100C9767C /* NoteMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90A9BD2238158100C9767C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +79,10 @@
 		CE90A9EE223818C900C9767C /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionCell.swift; sourceTree = "<group>"; };
 		CEE10E7E223AE9AF003F5D68 /* CourseCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCoreData.swift; sourceTree = "<group>"; };
+		CEE8B756225BA91F006056C3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		CEE8B758225BAA7A006056C3 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		CEE8B75C22610879006056C3 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		CEEA4D1F2264E09B00E8BD7D /* Artboard 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 4.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +139,7 @@
 				CEE10E3B22399542003F5D68 /* View */,
 				CE90A9BD2238158100C9767C /* AppDelegate.swift */,
 				CE90A9C12238158100C9767C /* Main.storyboard */,
+				CEEA4D1F2264E09B00E8BD7D /* Artboard 4.png */,
 				CE3FFADD22381C2B0054463F /* Launch Screen.storyboard */,
 				CE90A9C72238158500C9767C /* Assets.xcassets */,
 				CE90A9EE223818C900C9767C /* LaunchScreen.swift */,
@@ -148,8 +169,13 @@
 		CEE10E3B22399542003F5D68 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE2073A622443045009BD48D /* CollectionViewLayout.swift */,
 				CEE10E3E22399C70003F5D68 /* ClassCollectionCell.swift */,
-				CE2CF39522404BDF003D381B /* tableCell.swift */,
+				CE393E96228DFC54001A1187 /* editCellType.swift */,
+				CE393E97228DFC54001A1187 /* editCellType.xib */,
+				CE2CF39522404BDF003D381B /* readingCellType.swift */,
+				CE2F1BF22289CCB000495B3A /* readingCellType.xib */,
+				CE2073A22243EF46009BD48D /* MainCollectionViewLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				CE2CF38F223BFD5D003D381B /* Courses.swift */,
+				CEE8B758225BAA7A006056C3 /* DAO.swift */,
+				CEE8B756225BA91F006056C3 /* Note.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,8 +194,10 @@
 			isa = PBXGroup;
 			children = (
 				CE90A9BF2238158100C9767C /* MainVC.swift */,
-				CE2CF391223C0A25003D381B /* AddCourseVC.swift */,
 				CE2CF39322403F16003D381B /* ClassTableVC.swift */,
+				CEE8B75C22610879006056C3 /* NotesViewController.swift */,
+				CE2CF391223C0A25003D381B /* AddCourseVC.swift */,
+				CE2F1BB02270FCB800495B3A /* AddNewNoteViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,13 +279,16 @@
 				TargetAttributes = {
 					CE90A9B92238158100C9767C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					CE90A9D02238158500C9767C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = CE90A9B92238158100C9767C;
 					};
 					CE90A9DB2238158500C9767C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = CE90A9B92238158100C9767C;
 					};
 				};
@@ -285,6 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEA4D202264E09B00E8BD7D /* Artboard 4.png in Resources */,
+				CE2F1BF32289CCB000495B3A /* readingCellType.xib in Resources */,
+				CE393E99228DFC54001A1187 /* editCellType.xib in Resources */,
 				CE3FFADE22381C2B0054463F /* Launch Screen.storyboard in Resources */,
 				CE90A9C82238158500C9767C /* Assets.xcassets in Resources */,
 				CE90A9C32238158100C9767C /* Main.storyboard in Resources */,
@@ -312,15 +348,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE8B759225BAA7A006056C3 /* DAO.swift in Sources */,
+				CE2F1BB12270FCB800495B3A /* AddNewNoteViewController.swift in Sources */,
 				CE90A9EF223818C900C9767C /* LaunchScreen.swift in Sources */,
+				CEE8B757225BA91F006056C3 /* Note.swift in Sources */,
 				CE2CF390223BFD5D003D381B /* Courses.swift in Sources */,
+				CEE8B75D22610879006056C3 /* NotesViewController.swift in Sources */,
 				CE90A9C02238158100C9767C /* MainVC.swift in Sources */,
 				CEE10E3F22399C70003F5D68 /* ClassCollectionCell.swift in Sources */,
 				CE2CF392223C0A25003D381B /* AddCourseVC.swift in Sources */,
+				CE2073A32243EF46009BD48D /* MainCollectionViewLayout.swift in Sources */,
+				CE2073A722443045009BD48D /* CollectionViewLayout.swift in Sources */,
 				CE2CF39422403F16003D381B /* ClassTableVC.swift in Sources */,
 				CE90A9BE2238158100C9767C /* AppDelegate.swift in Sources */,
 				CE90A9C62238158100C9767C /* NoteMe2.xcdatamodeld in Sources */,
-				CE2CF39622404BDF003D381B /* tableCell.swift in Sources */,
+				CE2CF39622404BDF003D381B /* readingCellType.swift in Sources */,
+				CE393E98228DFC54001A1187 /* editCellType.swift in Sources */,
 				CEE10E7F223AE9AF003F5D68 /* CourseCoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,7 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9Q29J355M;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = NoteMe2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.NoteMe2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -507,7 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9Q29J355M;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = NoteMe2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,7 +558,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.NoteMe2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -526,7 +569,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9Q29J355M;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = NoteMe2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,7 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.NoteMe2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteMe2.app/NoteMe2";
 			};
@@ -547,7 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9Q29J355M;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = NoteMe2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,7 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.NoteMe2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteMe2.app/NoteMe2";
 			};
@@ -567,7 +610,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9Q29J355M;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = NoteMe2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -576,7 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.NoteMe2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NoteMe2;
 			};
@@ -587,7 +630,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9Q29J355M;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = NoteMe2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,7 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ttt.algoandcoding.NoteMe2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NoteMe2;
 			};

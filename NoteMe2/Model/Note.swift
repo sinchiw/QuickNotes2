@@ -10,8 +10,18 @@ import Foundation
 import UIKit
 
 
-class Note : NSObject {
-    var
+class Note: NSObject {
+    var sectionDetails: String
+    var sectionTitle : String
+    
+    init(sectionTitle: String, sectionDetail: String)
+    {
+        
+        self.sectionDetails = sectionDetail
+        self.sectionTitle = sectionTitle
+}
+
+    
     
 }
 

@@ -7,14 +7,18 @@
 //
 
 import Foundation
+import CoreData
+
 
 class Courses : NSObject {
      
     var className: String
+    var note: [Note]
     
     
-    init(className: String){
+    init(className: String, noteFrom: [Note]){
         self.className = className
+        self.note = noteFrom
         
         
     }

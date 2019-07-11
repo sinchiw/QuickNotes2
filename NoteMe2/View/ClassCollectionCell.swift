@@ -8,11 +8,31 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 
 class ClassCollectionCell: UICollectionViewCell{
     
+    var mainVC : MainVC!
+    
+    @IBOutlet weak var deleteButton: UIButton!
     @IBOutlet weak var className: UILabel!
+    
+    func showDeleteButton(){
+        if (self.mainVC.editButton.title == "Edit") {
+            self.deleteButton.isHidden = true
+        } else {
+         self.deleteButton.isHidden = false
+        }
+//
+//        
+    }
+    @IBAction func deleteClass(_ sender: UIButton) {
+        
+        
+    }
+    
+    
     
     //    func cellSpacing(){
 //        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()

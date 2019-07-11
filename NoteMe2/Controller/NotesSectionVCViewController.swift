@@ -8,11 +8,11 @@
 
 import UIKit
 
-class NotesSectionVCViewController: UIViewController {
+class AddNotesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//navigationItem.title = "Title"
         // Do any additional setup after loading the view.
     }
     
